@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C# IsMdiContainer"
-date:   2016-05-13
+date:   2016-05-12
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 tag:
 - markdown 
