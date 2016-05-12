@@ -1,21 +1,28 @@
-# Jekyll template
-Beautiful responsive portfolio style template for designers and web developers
+# Moon Jekyll Theme
+    
+######(If you like this theme or using it, please give a :star: for motivation.)
 
-[![Gitter](https://badges.gitter.im/nikrich/jekyll-slender-template.svg)](https://gitter.im/nikrich/jekyll-slender-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Twitter](https://img.shields.io/badge/Twitter-@slender_rich-blue.svg?style=flat)](https://twitter.com/slender_rich)
+**[Moon](http://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
-![preview](http://i.imgur.com/9Nz6Ib9.jpg)
+## Features
+* Minimal, you can focus on your content
+* Responsive
+* Disqus integration
+* Syntax highlighting
+* Optional post image
+* Social icons
+* Page for sharing projects
+* Optional background image
+* Simple navigation menu
+* MathJax support
 
-## Demo
-Find a demo [here](http://nikrich.github.io/jekyll-slender-template/#)
+## Preview
 
-## Contributing
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
-1. Clone the repo
-2. Checkout the dev branch ( Do not work directly on master )
-3. Use ```jekyll serve``` to run the project
-4. Make your changes and test
-5. Submit a pull request
+See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
+## Getting Started
 
-Inspired by [Balraj Chana](https://dribbble.com/shots/2380700-New-Portfolio-Site-Live)
+To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
