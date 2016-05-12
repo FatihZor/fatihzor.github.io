@@ -1,14 +1,11 @@
 ---
 layout: post
-title:  "C# IsMdiContainer"
+title:  "C# IsMdiContainer Özelliği"
 date:   2016-05-12
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+excerpt: "C# dili ile bir form içerisinde birden fazla form ve döküman üzerinde çalışmayı anlamaya çalışalım."
 tag:
-- markdown 
-- syntax
-- sample
-- test
-- jekyll
+- C#
+- IsMdiContainer
 comments: true
 ---
 
