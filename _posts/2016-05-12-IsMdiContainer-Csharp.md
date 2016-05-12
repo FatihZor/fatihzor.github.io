@@ -6,12 +6,12 @@ excerpt: "C# dili ile bir form içerisinde birden fazla form ve döküman üzeri
 tag:
 - C#
 - IsMdiContainer
-comments: true
+comments: false
 ---
 
-## HTML Elements
+## C# IsMdiContainer Özelliği
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+Bu özellik büyük boyutlu ve/veya birden çok form ile çalıştığımız uygulamalar için önem arz ediyor
 
 # Heading 1
 
