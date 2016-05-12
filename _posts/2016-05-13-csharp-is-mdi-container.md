@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C IsMdiContainer Özelliği "
+title:  "C IsMdiContainer Ozelligi "
 date:   2016-05-13
 excerpt: "C# bir form içerisinde birden fazla form ile çalışma yapısını basit bir şekilde anlatalım."
 tag:
