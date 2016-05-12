@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "C IsMdiContainer Ozelligi "
+title:  "CSharp IsMdiContainer Ozelligi "
 date:   2016-05-13
 excerpt: "C# bir form içerisinde birden fazla form ile çalışma yapısını basit bir şekilde anlatalım."
 tag:
-- C# 
+- CSharp
 - IsMdiContainer
 comments: true
 ---
