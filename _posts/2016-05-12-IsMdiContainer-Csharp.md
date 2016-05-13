@@ -11,7 +11,7 @@ comments: false
 
 ## C# IsMdiContainer Özelliği
 
-Bu özellik büyük boyutlu ve/veya birden çok form ile çalıştığımız uygulamalar için önem arz ediyor
+Bu özellik büyük boyutlu ve/veya birden çok form ile çalıştığımız uygulamalar için önem arz ediyor. 
 
 # Heading 1
 
