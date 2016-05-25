@@ -4,12 +4,10 @@ title:  "CSharp DialogResult"
 date:   2016-05-15
 excerpt: "Programımız çalışmaya başlarken kullanıcı girişini sağlamak amacı ile DialogResult yapıyoruz"
 tag:
-- markdown 
-- syntax
-- sample
-- test
-- jekyll
-comments: true
+- CSharp 
+- DialogResult
+- User Password
+comments: false
 ---
 
 [DialogResult MSDN Microsoft](https://msdn.microsoft.com/tr-tr/library/system.windows.forms.dialogresult(v=vs.110).aspx)
@@ -30,8 +28,8 @@ private static DialogResult ShowInputDialog(ref string username, ref string pass
             inputBox.Text = "Name";
 
             System.Windows.Forms.TextBox usernameBox = new TextBox(); // Username için TextBox
-            usernameBox.Size = new System.Drawing.Size(size.Width - 10, 23);
-            usernameBox.Location = new System.Drawing.Point(5, 5);
+            usernameBox.Size = new System.Drawing.Size(size.Width - 10, 23); // usernameBox kutusunun boyutunu ayarlar
+            usernameBox.Location = new System.Drawing.Point(5, 5); // usernameBox kutusunun yerini ayarlar
             usernameBox.Text = username; // Gönderilen username parametresi usernameBox objesinin içerisinde görülecektir.
             inputBox.Controls.Add(usernameBox);
 
@@ -57,8 +55,8 @@ private static DialogResult ShowInputDialog(ref string username, ref string pass
             cancelButton.Location = new System.Drawing.Point(size.Width - 80, 54);
             inputBox.Controls.Add(cancelButton);
 
-            inputBox.AcceptButton = okButton;
-            inputBox.CancelButton = cancelButton;
+            inputBox.AcceptButton = okButton; //Enter tuşuna basıldığında algılar ve okButton butonu işler.
+            inputBox.CancelButton = cancelButton; //ESC tuşuna basıldığında algılar ve cancelButton butonu işler.
 
             DialogResult result = inputBox.ShowDialog();
             username = usernameBox.Text;
@@ -71,4 +69,19 @@ private static DialogResult ShowInputDialog(ref string username, ref string pass
                 result = DialogResult.Cancel;
             return result;
         }
+{% endhighlight %}
+
+### Form Load Bölümü
+
+Eğer programımız çalışırken öncelikle bu dialog kutusunu göstermek istiyorsak **Form1_Load** fonksiyonunun ilk satırlarına aşağıdaki kodları belirtmeliyiz.
+
+{% highlight c# %}
+string username = "Username", password = "Password";
+
+            if (ShowInputDialog(ref username, ref password) == DialogResult.OK)
+            {
+                MessageBox.Show("Ok");
+            }
+            else
+                MessageBox.Show("Cancel");
 {% endhighlight %}
