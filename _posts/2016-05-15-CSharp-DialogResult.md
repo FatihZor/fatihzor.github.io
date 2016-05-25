@@ -29,7 +29,7 @@ private static DialogResult ShowInputDialog(ref string username, ref string pass
             inputBox.ClientSize = size;
             inputBox.Text = "Name";
 
-            System.Windows.Forms.TextBox usernameBox = new TextBox();
+            System.Windows.Forms.TextBox usernameBox = new TextBox(); // Username için TextBox
             usernameBox.Size = new System.Drawing.Size(size.Width - 10, 23);
             usernameBox.Location = new System.Drawing.Point(5, 5);
             usernameBox.Text = username;
