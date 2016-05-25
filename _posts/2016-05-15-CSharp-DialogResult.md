@@ -15,7 +15,7 @@ comments: false
 
 ## Kullanımı
 
-### Fonksiyon
+### Method
 
 {% highlight c# %}
 private static DialogResult ShowInputDialog(ref string username, ref string password)
