@@ -75,6 +75,9 @@ private static DialogResult ShowInputDialog(ref string username, ref string pass
 
 Eğer programımız çalışırken öncelikle bu dialog kutusunu göstermek istiyorsak **Form1_Load** fonksiyonunun ilk satırlarına aşağıdaki kodları belirtmeliyiz.
 
+Form1_Load bölümünde Form1 benim açmış olduğum Form'un ismidir.
+{: .notice}
+
 {% highlight c# %}
 string username = "Username", password = "Password";
 
