@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "CSharp DialogResult"
-date:   2016-03-15
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+date:   2016-05-15
+excerpt: "Programımız çalışmaya başlarken kullanıcı girişini sağlamak amacı ile DialogResult yapıyoruz"
 tag:
 - markdown 
 - syntax
@@ -11,6 +11,9 @@ tag:
 - jekyll
 comments: true
 ---
+
+![DialogResult MSDN Microsoft](https://msdn.microsoft.com/tr-tr/library/system.windows.forms.dialogresult(v=vs.110).aspx)
+
 
 ## HTML Elements
 
@@ -32,7 +35,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
-![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
+![DialogResult MSDN Microsoft](https://msdn.microsoft.com/tr-tr/library/system.windows.forms.dialogresult(v=vs.110).aspx)
 {: .image-right}
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
