@@ -32,13 +32,13 @@ private static DialogResult ShowInputDialog(ref string username, ref string pass
             System.Windows.Forms.TextBox usernameBox = new TextBox(); // Username için TextBox
             usernameBox.Size = new System.Drawing.Size(size.Width - 10, 23);
             usernameBox.Location = new System.Drawing.Point(5, 5);
-            usernameBox.Text = username;
+            usernameBox.Text = username; // Gönderilen username parametresi usernameBox objesinin içerisinde görülecektir.
             inputBox.Controls.Add(usernameBox);
 
             System.Windows.Forms.TextBox passwordBox = new TextBox();
             passwordBox.Size = new System.Drawing.Size(size.Width - 10, 23);
             passwordBox.Location = new System.Drawing.Point(5, 28);
-            passwordBox.Text = password;
+            passwordBox.Text = password; // Gönderilen password parametresi passwordBox objesinin içerisinde görülecektir.
             inputBox.Controls.Add(passwordBox);
 
             Button okButton = new Button();
