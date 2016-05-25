@@ -12,7 +12,7 @@ tag:
 comments: true
 ---
 
-![DialogResult MSDN Microsoft](https://msdn.microsoft.com/tr-tr/library/system.windows.forms.dialogresult(v=vs.110).aspx)
+[DialogResult MSDN Microsoft](https://msdn.microsoft.com/tr-tr/library/system.windows.forms.dialogresult(v=vs.110).aspx)
 
 
 ## HTML Elements
