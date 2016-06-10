@@ -34,6 +34,6 @@ $link = ($_GET['id']);
 {% endhighlight %}
 
 
-* xaesitesi.com/?id=0 * linki için ekrana * 0 * yazdırılacaktır.
-* xaesitesi.com/?id ve xaesitesi.com/?id= * linkleri için ekrana * 1 * yazdırılacaktır.
-* xaesitesi.com * linki için ekrana * 2 * yazdırılacaktır.
+`xaesitesi.com/?id=0` linki için ekrana `0` yazdırılacaktır.
+`xaesitesi.com/?id` ve `xaesitesi.com/?id=` linkleri için ekrana `1` yazdırılacaktır.
+`xaesitesi.com` linki için ekrana `2` yazdırılacaktır.
