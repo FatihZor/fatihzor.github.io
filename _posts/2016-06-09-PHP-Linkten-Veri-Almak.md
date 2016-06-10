@@ -17,7 +17,7 @@ xaesitesi.com/?id=1
 
 Linkte `?id=1` kısmı sayfaya gönderilen veri oluyor. 
 
-##Peki bunu nasıl kullanırız?
+## Peki bunu nasıl kullanırız?
 
 {% highlight php %}
 <?php
@@ -33,6 +33,8 @@ $link = ($_GET['id']);
 <?php echo $link ?>
 {% endhighlight %}
 
+* `$link` değişken ismidir.
+* `$_GET['id']` url'de bulunan tanımdır.
 
 * `xaesitesi.com/?id=0` linki için ekrana `0` yazdırılacaktır.
 * `xaesitesi.com/?id` ve `xaesitesi.com/?id=` linkleri için ekrana `1` yazdırılacaktır.
