@@ -15,7 +15,7 @@ comments: false
 xaesitesi.com/?id=1
 {: .notice}
 
-Linkte * ?id=1 * kısmı sayfaya gönderilen veri oluyor. 
+Linkte `?id=1` kısmı sayfaya gönderilen veri oluyor. 
 
 ##Peki bunu nasıl kullanırız?
 
