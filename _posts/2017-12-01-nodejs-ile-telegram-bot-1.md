@@ -15,12 +15,14 @@ categories:
 
 - Kullanılacak npm ```https://github.com/yagop/node-telegram-bot-api```
 
-İlk olarak kullanacağımız NodeJS paketimizi sunucumuza kurmamız gerekiyor.
+İlk olarak kullanacağımız NodeJS paketimizi sunucumuza kurmamız gerekiyor. Paketimiz kurulduktan sonra dizinimizin içerisine herhangi bir javascript dosyası oluşturup kodlarımızı bu javascript dosyasının içeriğine yazacağız.
 
 {% highlight bash %}
 mkdir telegramBOT
 cd telegramBOT
 npm install --save node-telegram-bot-api
+touch myApp.js
 {% endhighlight %}
 
-Paketimiz kurulduktan sonra 
+
+
