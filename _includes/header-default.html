@@ -37,7 +37,7 @@
 
         <ul class="recent">
             <p>son yazılar:</p>
-             {% for post in site.posts limit:3%}
+             {% for post in site.posts limit:5%}
                 <li>
                     <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
                         <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
