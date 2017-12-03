@@ -27,3 +27,4 @@ ChatBot, kullanıcılarından gelen mesajları analiz edip bu mesajlara en uygun
 
 ## Başlarken
 
+ChatBot yapımı için en çok kullanılan program dillerinden biri NodeJS programlama dilidir. Bende bu programlama dilini kullanarak basit bir telegram botu yapmaya çalışacağım.
