@@ -26,3 +26,4 @@ ChatBot, kullanıcılarından gelen mesajları analiz edip bu mesajlara en uygun
 - Facebook Messenger platformundan pizza siparişi verilebilir ```https://www.facebook.com/messages/t/Dominos```
 
 
+##### güncellenecek
