@@ -29,15 +29,15 @@ compress_html:
 
 # Links to include in menu navigation
 links:
-  - title: home
+  - title: anasayfa
     url: /
-  - title: my posts
+  - title: yazılarım
     url: /posts
-  - title: series
+  - title: yazı serileri
     url: /series
-  - title: tags
+  - title: etiketler
     url: /tags
-  - title: about me
+  - title: hakkımda
     url: /about
 # projects in header index
 projects:
