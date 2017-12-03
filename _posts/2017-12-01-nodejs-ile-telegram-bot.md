@@ -12,6 +12,7 @@ categories:
 - ChatBots
 ---
 
+<img src="http://stackresolve.com/assets/uploads/files/1497713671749-nodejs-telegram-bot.jpg">
 
 
 ## ChatBot nedir?

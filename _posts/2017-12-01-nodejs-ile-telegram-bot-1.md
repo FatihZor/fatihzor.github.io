@@ -13,6 +13,9 @@ categories:
 ---
 
 
+<img src="http://stackresolve.com/assets/uploads/files/1497713671749-nodejs-telegram-bot.jpg">
+
+
 - Kullanılacak npm ```https://github.com/yagop/node-telegram-bot-api```
 
 İlk olarak kullanacağımız NodeJS paketimizi sunucumuza kurmamız gerekiyor. Paketimiz kurulduktan sonra dizinimizin içerisine herhangi bir javascript dosyası oluşturup kodlarımızı bu javascript dosyasının içerisine yazacağız.
