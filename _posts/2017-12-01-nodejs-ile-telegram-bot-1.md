@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NodeJS ile Telegram Botu İlk Uygulama - Fatih Zor"
+title:  "NodeJS ile Telegram Botu - İlk Uygulama"
 image: ''
 date:   2017-12-01 00:06:31
 tags:
