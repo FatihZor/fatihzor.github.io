@@ -1,16 +1,15 @@
 # Site settings
 title: Fatih Zor - Siber Güvenlik ve Yeni Nesil Teknolojiler
 description: "“İnsanlar hayallerinize gülmüyorsa, hayalleriniz yeterince büyük değil demektir.” Robin Sharma"
-baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://fatihzor.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
-# User settings
+baseurl: "" 
+url: "http://fatihzor.github.io/" 
 username: fatihzor
 user_title: Fatih Zor - Siber Güvenlik
 email: fatihhzor@gmail.com
 twitter_username: fatihhzor
 github_username:  fatihzor
 gplus_username:  FatihZorCE
-linkedin_public_url: fatihzor # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+linkedin_public_url: fatihzor
 disqus_username: fatihzor
 profile_picture: https://avatars0.githubusercontent.com/FatihZor
 
