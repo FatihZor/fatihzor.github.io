@@ -5,7 +5,7 @@ baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "http://fatihzor.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: fatihzor
-user_title: Lorem Ipsum - FrontEnd
+user_title: Fatih Zor - Siber Güvenlik
 email: fatihhzor@gmail.com
 twitter_username: fatihhzor
 github_username:  fatihzor
