@@ -36,7 +36,7 @@
         </div>
 
         <ul class="recent">
-            <p>Recent posts:</p>
+            <p>son yazılar:</p>
              {% for post in site.posts limit:3%}
                 <li>
                     <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
@@ -47,7 +47,7 @@
         </ul>
 
         <ul class="recent">
-            <p>Recent projects:</p>
+            <p>son projeler:</p>
              {% for project in site.projects limit:3%}
                 <li>
                     <a title="Show my recent project" href="{{ project.url}}">
