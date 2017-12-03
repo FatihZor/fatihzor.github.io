@@ -29,3 +29,7 @@ ChatBot, kullanıcılarından gelen mesajları analiz edip bu mesajlara en uygun
 ## Başlarken
 
 ChatBot yapımı için en çok kullanılan program dillerinden biri NodeJS programlama dilidir. Bende bu programlama dilini kullanarak basit bir telegram botu yapmaya çalışacağım.
+
+Uygulama aşamasına geçmeden önce [Microsoft Azure](https://azure.microsoft.com/tr-tr/services/virtual-machines/) üzerinde Ubuntu işletim sistemine sahip sanal bir sunucu kuruyorum. Bu sunucunun 80 numaralı http portunun güvenlik ayarlarını gelen ve giden tüm bağlantılara izin verecek şekilde ayarlıyorum. 
+
+Sunucumuzda gereken ayarları yaptıktan sonra Telegram uygulamasına giderek [BotFather](https://telegram.me/BotFather) botu ile yeni bir bot oluşturup token bilgisini alıyorum. 
