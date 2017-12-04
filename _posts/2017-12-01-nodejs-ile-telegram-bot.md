@@ -33,3 +33,5 @@ ChatBot yapımı için en çok kullanılan program dillerinden biri NodeJS progr
 Uygulama aşamasına geçmeden önce [Microsoft Azure](https://azure.microsoft.com/tr-tr/services/virtual-machines/) üzerinde Ubuntu işletim sistemine sahip sanal bir sunucu kuruyorum. Bu sunucunun 80 numaralı http portunun güvenlik ayarlarını gelen ve giden tüm bağlantılara izin verecek şekilde ayarlıyorum. 
 
 Sunucumuzda gereken ayarları yaptıktan sonra Telegram uygulamasına giderek [BotFather](https://telegram.me/BotFather) botu ile yeni bir bot oluşturup token bilgisini alıyorum. 
+
+<img src="https://i.hizliresim.com/4Gy6p7.png" alt="NodeJS ile Telegram Botu - Fatih Zor">
