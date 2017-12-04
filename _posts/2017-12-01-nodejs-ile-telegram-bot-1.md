@@ -54,6 +54,7 @@ bot.on('message', (msg) => {
 }); 
 {% endhighlight %}
 
+Dosyamıza eklediğimiz son kod parçası ile dosyamızın içeriği aşağıdaki şekilde olacaktır. 
 
 {% highlight javascript %}
 const TelegramBot = require('node-telegram-bot-api');
