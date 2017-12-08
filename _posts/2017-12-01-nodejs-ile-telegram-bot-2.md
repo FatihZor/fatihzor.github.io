@@ -67,7 +67,7 @@ bot.onText(/\/start/, (msg) => {
 });
 {% endhighlight %}
 
-Şimdi gelen eklenti ismini ```https://wpvulndb.com/api/v2/plugins/``` adresine ```GET``` isteği olarak göndereceğiz. Gönderdiğimiz ```GET``` isteği sonucu bize ```JSON``` veri olarak dönecektir. 
+Şimdi gelen eklenti ismini ```https://wpvulndb.com/api/v2/plugins/``` adresine ```GET``` isteği olarak göndereceğiz. Gönderdiğimiz ```GET``` isteği sonucu bize ```JSON``` veri olarak dönecektir. İlk olarak bir dizi oluşturuyoruz ve bu diziye butonlar için girdiğimiz eklenti listesinde bulunan eklenti isimlerini gireceğiz. {% highlight javascript %}const yourArray = ["userpro", "eshop", "qards", "wphrm", "formcraft3", "examapp", "AffiliateWP", "directdownload"]{% endhighlight %}
 
 {% highlight javascript %}
 const TelegramBot = require('node-telegram-bot-api');
