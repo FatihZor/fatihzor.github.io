@@ -70,7 +70,9 @@ bot.onText(/\/start/, (msg) => {
 Şimdi gelen eklenti ismini ```https://wpvulndb.com/api/v2/plugins/``` adresine ```GET``` isteği olarak göndereceğiz. Gönderdiğimiz ```GET``` isteği sonucu bize ```JSON``` veri olarak dönecektir. İlk olarak bir dizi oluşturuyoruz ve bu diziye butonlar için girdiğimiz eklenti listesinde bulunan eklenti isimlerini gireceğiz. 
 {% highlight javascript %}const yourArray = ["userpro", "eshop", "qards", "wphrm", "formcraft3", "examapp", "AffiliateWP", "directdownload"]{% endhighlight %} 
 
-Bu kodumuzdan sonra ```msg.chat.id``` değişkenini daha rahat kullanabilmek için bu değişkeni ```chatId``` isminde sabit bir değişkene 
+Bu kodumuzdan sonra ```msg.chat.id``` değişkenini daha rahat kullanabilmek için bu değişkeni ```chatId``` isminde sabit bir değişkene aktarıyoruz. Değişkenleri oluşturduktan sonra bir koşul oluşturacağız. Bu koşul ile kullanıcının gönderdiği eklenti ismi bizim tanımladığımız dizi içerisinde bulunuyorsa zaafiyet sorgulama işlemi gerçekleşecek. Bu koşulu gerçekleştirebilmek için yazacağımız kod aşağıdaki gibidir. 
+{% highlight javascript %}if (yourArray.indexOf(msg.text.toString()) > -1){% endhighlight %} 
+
 
 {% highlight javascript %}
 const TelegramBot = require('node-telegram-bot-api');
