@@ -6,7 +6,7 @@ date:   2017-12-01 00:06:31
 tags:
 - nodejs
 - telegram bot
-description: ''
+description: 'İlk olarak kullanacağımız NodeJS paketimizi sunucumuza kurmamız gerekiyor. Paketimiz kurulduktan sonra dizinimizin içerisine herhangi bir javascript dosyası oluşturup kodlarımızı bu javascript dosyasının içerisine yazacağız.'
 categories:
 - NodeJS
 - ChatBots
