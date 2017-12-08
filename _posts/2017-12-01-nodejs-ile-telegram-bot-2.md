@@ -46,7 +46,7 @@ const bot = new TelegramBot(token, {
 
 Şimdi bir liste oluşturup içerisin bir kaç wordpress eklentisi ismi yazalım. Fakat, bunu kullanıcı bota erişip ```/start``` butonuna tıkladığında alt alta butonlar olacak şekilde yapalım. Kullanıcı botu ilk başlattığında kullanıcıya ismi ve kullanıcı adı ile hitap edeceğiz. Bunun için ```msg.from.first_name``` ve ```msg.from.username``` komutlarını, göndereceğimiz cevap string'ine ekleyeceğiz. 
 
-{% highlight javascript %}
+{% highlight nodejs %}
 bot.onText(/\/start/, (msg) => {
 
     bot.sendMessage(msg.chat.id, "Hoşgeldin " + msg.from.first_name + (" @" + msg.from.username), {
@@ -67,7 +67,10 @@ bot.onText(/\/start/, (msg) => {
 });
 {% endhighlight %}
 
-Şimdi gelen eklenti ismini ```https://wpvulndb.com/api/v2/plugins/``` adresine ```GET``` isteği olarak göndereceğiz. Gönderdiğimiz ```GET``` isteği sonucu bize ```JSON``` veri olarak dönecektir. İlk olarak bir dizi oluşturuyoruz ve bu diziye butonlar için girdiğimiz eklenti listesinde bulunan eklenti isimlerini gireceğiz. {% highlight javascript %}const yourArray = ["userpro", "eshop", "qards", "wphrm", "formcraft3", "examapp", "AffiliateWP", "directdownload"]{% endhighlight %}
+Şimdi gelen eklenti ismini ```https://wpvulndb.com/api/v2/plugins/``` adresine ```GET``` isteği olarak göndereceğiz. Gönderdiğimiz ```GET``` isteği sonucu bize ```JSON``` veri olarak dönecektir. İlk olarak bir dizi oluşturuyoruz ve bu diziye butonlar için girdiğimiz eklenti listesinde bulunan eklenti isimlerini gireceğiz. 
+{% highlight nodejs %}const yourArray = ["userpro", "eshop", "qards", "wphrm", "formcraft3", "examapp", "AffiliateWP", "directdownload"]{% endhighlight %} 
+
+Bu kodumuzdan sonra 
 
 {% highlight javascript %}
 const TelegramBot = require('node-telegram-bot-api');
