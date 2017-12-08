@@ -91,6 +91,8 @@ if (yourArray.indexOf(msg.text.toString()) > -1) {
             });
 {% endhighlight %}
 
+<img src="https://i.hizliresim.com/a1ZPDR.png" alt="NodeJS ile Telegram Botu - Fatih Zor">
+
 {% highlight javascript %}
 const TelegramBot = require('node-telegram-bot-api');
 const https = require('https');
