@@ -6,7 +6,7 @@ date:   2017-12-07 00:06:31
 tags:
 - nodejs
 - telegram bot
-description: 'Bir önceki yazımızda gönderilen her mesaja "mesaj alındı" şeklinde cevap veren bir bot yapmıştık. Bu sefer ise API kullanan bir bot yapacağız. Amacımız tanımlı bir liste içerisinde bulunan wordpress eklentilerinden seçim yapan kullanıcıya o eklentinin zaafiyetlerini bildirmek.'
+description: 'Bir önceki yazımızda gönderilen her mesaja mesaj alındı şeklinde cevap veren bir bot yapmıştık. Bu sefer ise API kullanan bir bot yapacağız. Amacımız tanımlı bir liste içerisinde bulunan wordpress eklentilerinden seçim yapan kullanıcıya o eklentinin zaafiyetlerini bildirmek.'
 categories:
 - NodeJS
 - ChatBots
