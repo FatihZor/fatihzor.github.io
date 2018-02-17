@@ -14,7 +14,7 @@ date: 2018-12-12 00:00:00 +0530
 {% endfor %}
 
 <!-- pages -->
-{% for page in site.pages.portfolio %}
+{% for page in site.portfolio %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         <lastmod>{{ page.date }}</lastmod>
