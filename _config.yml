@@ -5,7 +5,7 @@ url: "https://fatihzor.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: "Fatih Zor - Siber Güvenlik ve Yeni Nesil Teknolojiler"
+  title: Fatih Zor - Siber Güvenlik ve Yeni Nesil Teknolojiler
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
