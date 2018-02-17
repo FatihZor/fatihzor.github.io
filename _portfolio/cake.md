@@ -3,7 +3,7 @@ layout: post
 title: Cake
 feature-img: "assets/img/portfolio/cake.png"
 img: "assets/img/portfolio/cake.png"
-date: 27 September 2015
+date: 2017-12-02 00:06:31
 tags: [Lorem, Ipsum, Portfolio]
 ---
 
