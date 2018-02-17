@@ -10,6 +10,8 @@ date: 2018-12-12 00:00:00 +0530
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
         <lastmod>{{ post.date }}</lastmod>
+        <priority>0.8</priority>
+        <changefreq>daily</changefreq>
     </url>
 {% endfor %}
 
@@ -18,6 +20,8 @@ date: 2018-12-12 00:00:00 +0530
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         <lastmod>{{ page.date }}</lastmod>
+        <priority>0.4</priority>
+        <changefreq>weekly</changefreq>
     </url>
 {% endfor %}
 
