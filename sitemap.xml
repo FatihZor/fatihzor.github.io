@@ -9,7 +9,7 @@ date: 2018-12-12 00:00:00 +0530
 {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
-        <lastmod>{{ page.date | date: "%m-%d-%Y" }}</lastmod>
+        <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
         <priority>0.8</priority>
         <changefreq>daily</changefreq>
     </url>
@@ -19,7 +19,7 @@ date: 2018-12-12 00:00:00 +0530
 {% for page in site.portfolio %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.date | date: "%m-%d-%Y" }}</lastmod>
+        <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
         <priority>0.4</priority>
         <changefreq>weekly</changefreq>
     </url>
