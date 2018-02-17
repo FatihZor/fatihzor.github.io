@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NodeJS ile Telegram Botu Zaafiyet Sorgulama"
-feature-img: 'http://stackresolve.com/assets/uploads/files/1497713671749-nodejs-telegram-bot.jpg'
+feature-img: 'assets/img/bot.jpg'
 date:   2017-12-07 00:06:31
 tags:
 - nodejs
