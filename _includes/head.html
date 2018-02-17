@@ -4,7 +4,6 @@
     
     <!-- JQuery (used for bootstrap and jekyll search) -->
     <script src="{{ site.baseurl }}/assets/js/jquery-3.2.1.min.js" ></script>
-    <title>{{ site.title }}</title>
     <!-- Main JS (navbar.js and katex_init.js)-->
     <script defer=true src="{{ site.baseurl }}/assets/js/main.min.js"></script>
     
@@ -61,9 +60,8 @@
     
     <!-- seo tags -->
     {% seo %}
-    <!-- Manual seo tags -->
-    <!--
+    
     <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
-    -->
+    
 </head>
