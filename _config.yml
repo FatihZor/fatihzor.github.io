@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://fatihzor.github.io/"
+url: "https://fatihzor.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
