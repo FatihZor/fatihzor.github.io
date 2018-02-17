@@ -13,8 +13,6 @@ categories:
 ---
 
 
-<img src="http://stackresolve.com/assets/uploads/files/1497713671749-nodejs-telegram-bot.jpg" alt="NodeJS ile Telegram Botu - Fatih Zor">
-
 
 - Kullanılacak npm ```https://github.com/yagop/node-telegram-bot-api```
 - Kullanılacak npm ```https://nodejs.org/api/https.html```
