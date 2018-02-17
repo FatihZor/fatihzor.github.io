@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NodeJS ile Telegram Botu"
-image: 'http://stackresolve.com/assets/uploads/files/1497713671749-nodejs-telegram-bot.jpg'
+feature-img: 'http://stackresolve.com/assets/uploads/files/1497713671749-nodejs-telegram-bot.jpg'
 date:   2017-12-01 00:06:31
 tags:
 - nodejs
