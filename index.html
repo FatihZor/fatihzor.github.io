@@ -1,21 +1,21 @@
-Domain Name System [DNS] (Alan Adı Sistemi) dağıtık yapıda bir veritabanıdır. Bu sistem makina isimlerini IPv4 (ya da ipv6) adreslere ya da IPv4 adresleri makina isimlerine çevirmeye yarar. Ayrıca bir alan için gerekli eposta sunucusunun adreslerini ya da alanadı sunucularının hangi IP adreslerinde bulunduğunu daha teknik bir ifade ile RR'ları (Resource Records - Özkaynak Kayıtları) tutar. DNS yapısı gereği hızlı olmalıdır. Bu yüzden yapılan sorgulamalar eğer 512 bayttan küçük ise ya da yapılan işlem asıl DNS sunucusu ile yardımcı DNS sunucusu arasında bölge transferi değilse UDP üzerinden yapılacaktır. DNS sisteminin yazarları DNS için gerekli bilgileri diğer Internet araçlarında olduğu gibi RFC'lerde tanımlamışlardır (RFC 1034 ve 1035).
+<p>Domain Name System [DNS] (Alan Adı Sistemi) dağıtık yapıda bir veritabanıdır. Bu sistem makina isimlerini IPv4 (ya da ipv6) adreslere ya da IPv4 adresleri makina isimlerine çevirmeye yarar. Ayrıca bir alan için gerekli eposta sunucusunun adreslerini ya da alanadı sunucularının hangi IP adreslerinde bulunduğunu daha teknik bir ifade ile RR'ları (Resource Records - Özkaynak Kayıtları) tutar. DNS yapısı gereği hızlı olmalıdır. Bu yüzden yapılan sorgulamalar eğer 512 bayttan küçük ise ya da yapılan işlem asıl DNS sunucusu ile yardımcı DNS sunucusu arasında bölge transferi değilse UDP üzerinden yapılacaktır. DNS sisteminin yazarları DNS için gerekli bilgileri diğer Internet araçlarında olduğu gibi RFC'lerde tanımlamışlardır (RFC 1034 ve 1035).</p>
 
--------------------------------------------------------
-Bir DNS Server authoritative veya nonauthoritative olabilir
+<p>-------------------------------------------------------</p>
+<p>Bir DNS Server authoritative veya nonauthoritative olabilir</p>
 
--> Authoritative DNS server’lar
+<p>-> Authoritative DNS server’lar</p>
 
-•İstenilen adresi başarı ile döndürür
-•İstenilen adres bulunamadı mesajı döndürür
+<p>•İstenilen adresi başarı ile döndürür</p>
+<p>•İstenilen adres bulunamadı mesajı döndürür</p>
 
--> Nonauthoritative DNS server
+<p>-> Nonauthoritative DNS server</p>
 
-•Cache’ini kontrol eder
-•Eğer sorguyu çözemezse başka bir server’a yollar.
-•Bu server forward olarak adlandırılır
-•Sorgu için;Root Hints’leri tarar
-
----------------------------------------------------------------
-DNS Server Caching
-DNS sunucuları ve istemciler bir kere öğrendikleri bilgiyi belli bir TTL(Time-To-Live) değeri süresince belleklerinde tutarlar. Böylece yapılacak sonraki aynı sorgular için işlem süresi azalır.
-TTL değerinin az olması ağ trafiğini arttırır ancak sorguların taze tutulabilmesini sağlar.
+<p>•Cache’ini kontrol eder</p>
+<p>•Eğer sorguyu çözemezse başka bir server’a yollar.</p>
+<p>•Bu server forward olarak adlandırılır</p>
+<p>•Sorgu için;Root Hints’leri tarar</p>
+<p></p>
+<p>---------------------------------------------------------------</p>
+<p>DNS Server Caching</p>
+<p>DNS sunucuları ve istemciler bir kere öğrendikleri bilgiyi belli bir TTL(Time-To-Live) değeri süresince belleklerinde tutarlar. Böylece yapılacak sonraki aynı sorgular için işlem süresi azalır.</p>
+<p>TTL değerinin az olması ağ trafiğini arttırır ancak sorguların taze tutulabilmesini sağlar.</p>
