@@ -1,92 +1,21 @@
-<!DOCTYPE html>
-<html>
+Domain Name System [DNS] (Alan Adı Sistemi) dağıtık yapıda bir veritabanıdır. Bu sistem makina isimlerini IPv4 (ya da ipv6) adreslere ya da IPv4 adresleri makina isimlerine çevirmeye yarar. Ayrıca bir alan için gerekli eposta sunucusunun adreslerini ya da alanadı sunucularının hangi IP adreslerinde bulunduğunu daha teknik bir ifade ile RR'ları (Resource Records - Özkaynak Kayıtları) tutar. DNS yapısı gereği hızlı olmalıdır. Bu yüzden yapılan sorgulamalar eğer 512 bayttan küçük ise ya da yapılan işlem asıl DNS sunucusu ile yardımcı DNS sunucusu arasında bölge transferi değilse UDP üzerinden yapılacaktır. DNS sisteminin yazarları DNS için gerekli bilgileri diğer Internet araçlarında olduğu gibi RFC'lerde tanımlamışlardır (RFC 1034 ve 1035).
 
-<head>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <title> Python ile Web Uygulaması Geliştirme Eğitimi Kaynaklar </title>
-</head>
+-------------------------------------------------------
+Bir DNS Server authoritative veya nonauthoritative olabilir
 
-<body>
-    <div class="jumbotron">
+-> Authoritative DNS server’lar
 
-        <div class="card text-left">
-            <div class="card-body">
-                <h4 class="card-title">Bootstrap Examples</h4>
-                <p class="card-text">
-                    <code>
-                        <a href="https://getbootstrap.com/docs/4.1/examples/" target="_blank">https://getbootstrap.com/docs/4.1/examples/</a>
-                    </code>
-                    <h3> Bootstrap CDN </h3>
-                    <code>https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css</code>
-                </p>
-            </div>
-        </div>
+•İstenilen adresi başarı ile döndürür
+•İstenilen adres bulunamadı mesajı döndürür
 
-        <div class="card text-left">
-            <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Flask Basit Uygulama</h4>
-                <p class="card-text">
-                    <pre>
-                        from flask import Flask
-                        app = Flask(__name__)
+-> Nonauthoritative DNS server
 
-                        @app.route("/")
-                        def hello():
-                            return "Hello World!"
+•Cache’ini kontrol eder
+•Eğer sorguyu çözemezse başka bir server’a yollar.
+•Bu server forward olarak adlandırılır
+•Sorgu için;Root Hints’leri tarar
 
-                        if __name__ == "__main__":
-                            app.run()
-                    </pre>
-                </p>
-            </div>
-        </div>
-
-        <div class="card text-left">
-            <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Jinja For ve If</h4>
-                <p class="card-text">
-                    <pre>
-                        {% if users %}
-                        
-                        {% for user in users %}
-                            {{ user.username }}
-                        {% endfor %}
-                        
-                        {% endif %}
-                    </pre>
-                </p>
-            </div>
-        </div>
-
-        <div class="card text-left">
-            <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Sqlite3 Kaynak</h4>
-                <p class="card-text"><code><a href="https://docs.python.org/3/library/sqlite3.html">https://docs.python.org/3/library/sqlite3.html</a></code>></p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Flask Session</h4>
-                <p class="card-text">
-                    <code> <a href="https://www.tutorialspoint.com/flask/flask_sessions.htm">https://www.tutorialspoint.com/flask/flask_sessions.htm</a> </code>
-                    <code> from werkzeug.security import generate_password_hash, check_password_hash </code>
-                </p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Jinja Static  File</h4>
-                <p class="card-text">{{ url_for('static', filename='bulmaswatch.min.css')}}</p>
-            </div>
-        </div>
-
-    </div>
-</body>
-
-</html>
+---------------------------------------------------------------
+DNS Server Caching
+DNS sunucuları ve istemciler bir kere öğrendikleri bilgiyi belli bir TTL(Time-To-Live) değeri süresince belleklerinde tutarlar. Böylece yapılacak sonraki aynı sorgular için işlem süresi azalır.
+TTL değerinin az olması ağ trafiğini arttırır ancak sorguların taze tutulabilmesini sağlar.
