@@ -22,36 +22,38 @@
 
 <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 
-<p>DHCPDiscover Message</p>
+<h2>DHCPDiscover Message</h2>
 <p>
 DHCP istemcisi, bir DHCP sunucusu bulmak için ağda bir DHCP Discover yayını gönderir. Bir DHCP sunucusundan yanıt gelmezse, istemci kendisine bir Otomatik Özel IPv4 adresi (APIPA) atar.
 </p>
 
-<p>DHCPOffer Message</p>
+<h2>DHCPOffer Message</h2>
 <p>
 Bir DHCP Discover iletisi alan bir ağdaki DHCP sunucuları, istemciye bir IPv4 adres kirası sunan bir DHCP Önerisi iletisiyle yanıt verir.
 </p>
-<p>DHCPRequest Message</p>
+<h2>DHCPRequest Message</h2>
 <p>
 Müşteriler, sunulan IPv4 adresi için DHCP İstek mesajı yayınlayarak alınan ilk teklifi kabul eder.
 </p>
-<p>DHCPAcknowledgment Message</p>
+<h2>DHCPAcknowledgment Message</h2>
     <p>
 Sunucu, istemciye DHCP Onay mesajı göndererek isteği kabul eder.
 </p>
-<p>DHCPNak Message</p>
+<h2>DHCPNak Message</h2>
     <p>
 DHCP istemcisi tarafından istenen IPv4 adresi kullanılamazsa (başka bir aygıt bu IPv4 adresini kullanıyor olabilir), DHCP sunucusu bir DHCPNak (Negatif Teşekkür mesajı) paketi ile yanıt verir. Bundan sonra, müşteri DHCP kiralama işlemine tekrar başlamalıdır.
 </p>
-<p>DHCPDecline Message</p>
+<h2>DHCPDecline Message</h2>
     <p>
 DHCP istemcisi, önerilen TCP / IP yapılandırma parametrelerinin geçersiz olduğunu belirlerse, sunucuya bir DHCPDecline paketi gönderir. Bundan sonra, müşteri DHCP kiralama işlemine tekrar başlamalıdır.
 </p>
-<p>DHCPRelease Message
+<h2>DHCPRelease Message</h2>
     <p>
 DHCP istemcisi, IPv4 adresini serbest bırakmak ve kalan kirayı iptal etmek için DHCPRelease paketini sunucuya gönderir.
 </p>
-<p>DHCPInform Message</p>
+<h2>DHCPInform Message</h2>
     <p>
 DHCP Inform, RFC 2131’de tanımlanan yeni bir DHCP iletisi türüdür. DHCPInformation, DHCP seçenekleri edinmek için DHCP istemcileri tarafından kullanılır.
 </p>
+
+<a href="https://wiki.wireshark.org/DHCP">https://wiki.wireshark.org/DHCP</a>
