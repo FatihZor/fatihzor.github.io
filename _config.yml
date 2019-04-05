@@ -1,0 +1,57 @@
+# Site
+name: 'Fatih Zor'
+description: 'Siber Güvenlik'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+disqus: 'demowebsite'
+email: 'fatih.zor@ogrenci.karatay.edu.tr'
+mailchimp-list: 'https://gmail.us20.list-manage.com/subscribe/post?u=12b6a4607cdb6e2e4cb119129&amp;id=0d4e06f9cc'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    fatih:
+      name:           Fatih Zor
+      site:           https://fatihzor.github.io/
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Merhaba, ben Fatih Zor."
+      email:          fatih.zor@ogrenci.karatay.edu.tr
+      twitter:        https://twitter.com/fatihhzor
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: fatih
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
