@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cypress Nasıl Kullanılır?"
+title:  "Cypress Nedir, Nasıl Kullanılır?"
 categories: [ Node.js, Cypress ]
 image: assets/images/cypress-io-logo-social-share.png
 ---
