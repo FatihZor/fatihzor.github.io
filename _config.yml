@@ -22,7 +22,7 @@ authors:
     fatih:
       name:           Fatih Zor
       site:           https://fatihzor.github.io/
-      avatar:         https://fatihzor.github.io/assets/images/avatar1.jpg
+      avatar:         /assets/images/avatar1.jpg
       bio:            "Merhaba, ben Fatih Zor."
       email:          fatih.zor@ogrenci.karatay.edu.tr
       twitter:        https://twitter.com/fatihhzor
