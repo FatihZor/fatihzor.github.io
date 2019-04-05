@@ -51,4 +51,4 @@ Yazının devamı için [Cypress Nasıl Kullanılır? - 2][sonra]
 
 [node-js]: https://nodejs.org/en/download/
 [vs-code]: https://code.visualstudio.com/docs/setup/setup-overview
-[sonra]: https://fatihzor.github.io/cypress-nasil-kullanilir/
+[sonra]: https://fatihzor.github.io/cypress-nasil-kullanilir-2/
