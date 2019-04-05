@@ -19,7 +19,7 @@ Proje dizinimizde kurulumu gerçekleştirmek için npm paket yöneticisini kulla
 
 ```npm install cypress --save-dev```
 
-![kurulum]({{ site.baseurl }}/assets/images/cypress1.png)
+![cypress kurulum]({{ site.baseurl }}/assets/images/cypress1.png)
 
 Kurulum tamamlandıktan sonra Cypress uygulamasını çalıştırmak için gerek komutu giriyoruz.
 
@@ -27,11 +27,11 @@ Kurulum tamamlandıktan sonra Cypress uygulamasını çalıştırmak için gerek
 
 Cypress uygulaması açıldığında, testleri hangi klasörde yazmamız gerektiğini gösteriyor. Bu kısımda aşağıda gösterilen sıra ile linklere tıklıyoruz.
 
-![klasör]({{ site.baseurl }}/assets/images/cypress2.png)
+![cypress ilk ekran]({{ site.baseurl }}/assets/images/cypress2.png)
 
 Açılan klasörde yeni bir dosya oluşturarak ismini ```my-test.js``` yapalım. Eğer Javascript dosyası doğru klasörde açılmış ise Cypress uygulamasında dosyamızı görebiliriz.
 
-![cypress]({{ site.baseurl }}/assets/images/cypress3.png)
+![cypress ilk test]({{ site.baseurl }}/assets/images/cypress3.PNG)
 
 
 {% highlight javascirpt %}
