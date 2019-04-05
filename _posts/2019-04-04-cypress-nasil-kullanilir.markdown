@@ -45,7 +45,7 @@ describe('Twitter Test', function () {
 
 Kodumuzu yazdıktan sonra ```my-test.js``` dosyamızı kaydediyoruz. Daha sonra Cypress uygulamasına dönerek ```my-test.js``` dosyasına tıklıyoruz. Test çalışmaya başlayarak ```https://twitter.com/login``` linkini ziyaret edecektir.
 
-![cypress ilk test]({{ site.baseurl }}/assets/images/cypress4.png)
+![cypress ilk test]({{ site.baseurl }}/assets/images/cypress4.PNG)
 
 
 [node-js]: https://nodejs.org/en/download/
