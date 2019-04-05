@@ -45,7 +45,7 @@ image: assets/images/cypress-io-logo-social-share.png
     <button type="submit" class="submit EdgeButton EdgeButton--primary EdgeButtom--medium">Giriş yap</button>
 {% endhighlight %}
 
-Formda doldurmamız gereken 2 ```input``` elementi ve tıklamamız gereken 1 ```button``` elementi var. ```input``` elementlerini seçmek için ```class``` özellikleri kullanılabilir. Şimdi kodumuzu düzenleyelim.
+Formda doldurmamız gereken 2 ```input``` elementi ve tıklamamız gereken 1 ```button``` elementi var. Elementleri seçmek için ```class``` özellikleri kullanılabilir. Şimdi kodumuzu düzenleyerek Twitter uygulamasına giriş yapalım.
 
 {% highlight javascript %}
 describe('Twitter Test', function () {
