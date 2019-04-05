@@ -31,15 +31,22 @@ Cypress uygulaması açıldığında, testleri hangi klasörde yazmamız gerekti
 
 Açılan klasörde yeni bir dosya oluşturarak ismini ```my-test.js``` yapalım. Eğer Javascript dosyası doğru klasörde açılmış ise Cypress uygulamasında dosyamızı görebiliriz.
 
-![cypress ilk test]({{ site.baseurl }}/assets/images/cypress3.PNG)
+![cypress ilk test dosyası]({{ site.baseurl }}/assets/images/cypress3.PNG)
 
+Şimdi bir metin editörü ile ```my-test.js``` dosyamızı açalım. Metin editörleri arasında benim tercihim [Visual Studio Code][vs-code]. Testimizi Twitter üzerinde yapacağız. İlk olarak twitter giriş sayfasını açmalıyız.
 
 {% highlight javascirpt %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+describe('Twitter Test', function () {
+    it('Twitter ziyaret et', function () {
+        cy.visit('https://twitter.com/login')
+    })
+})
 {% endhighlight %}
 
+Kodumuzu yazdıktan sonra ```my-test.js``` dosyamızı kaydediyoruz. Daha sonra Cypress uygulamasına dönerek ```my-test.js``` dosyasına tıklıyoruz. Test çalışmaya başlayarak ```https://twitter.com/login``` linkini ziyaret edecektir.
+
+![cypress ilk test]({{ site.baseurl }}/assets/images/cypress4.png)
+
+
 [node-js]: https://nodejs.org/en/download/
+[vs-code]: https://code.visualstudio.com/docs/setup/setup-overview
