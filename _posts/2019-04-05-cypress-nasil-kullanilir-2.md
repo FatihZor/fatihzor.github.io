@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Cypress Nasıl Kullanılır? - 2"
-categories: [ Node.js ]
+categories: [ Node.js, Cypress ]
 image: assets/images/cypress-io-logo-social-share.png
 ---
 
-Bu yazıya başlamadan önce eğer okumadıysanız, [Cypress Nasıl Kullanılır?][ilk] yazısını okuyunuz.
+[Bir önceki yazımızda][ilk] Cypress'in nasıl kurulduğunu ve test ortamının nasıl oluşturulduğunu anlatmıştık. Bu yazımızda ise ilk testimizi tamamlayarak Twitter uygulamasına giriş yapacağız.
 
 [ilk]: https://fatihzor.github.io/cypress-nasil-kullanilir/
