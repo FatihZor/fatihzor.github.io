@@ -3,7 +3,7 @@ layout: post
 title:  "Azure Sanal Makine Oluşturma"
 author: fatih
 categories: [ Azure, Cloud ]
-image: assets/images/python.jpg
+image: assets/images/avm.jpg
 tags: [python]
 ---
 
