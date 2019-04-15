@@ -7,7 +7,7 @@ image: assets/images/avm.jpg
 tags: [Azure]
 ---
 
-Bir önceki yazımda öğrenciler için Azure hesabının nasıl oluşturulduğunu yazmıştım. Bu yazımda ise bu Azure hesabını kullanarak ücretsiz bir sanal makine oluşturulacağını anlatacağım. Bu sanal makineyi daha sonra Python ve Node.js projelerinde kullanacağım. 
+Bir önceki yazımda öğrenciler için Azure hesabının nasıl oluşturulduğunu yazmıştım. Bu yazımda ise bu Azure hesabını kullanarak ücretsiz bir sanal makinenin nasıl oluşturulduğunu anlatacağım. Bu sanal makineyi daha sonra Python ve Node.js projelerinde kullanacağım.
 
 * ![öğrenciler için azure sanal makine]({{ site.baseurl }}/assets/images/azurevm/1.png)
 * ![öğrenciler için azure sanal makine]({{ site.baseurl }}/assets/images/azurevm/2.png)
