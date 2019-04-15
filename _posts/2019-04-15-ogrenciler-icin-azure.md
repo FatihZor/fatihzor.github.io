@@ -11,6 +11,7 @@ Microsoft Azure, kuruluşunuzun iş zorluklarını aşmasına yardımcı olacak 
 [Microsoft Azure Nedir?][azure-nedir]
 
 ### Bulut Bilişim Nedir?
+
 Basitçe açıklamak gerekirse, bulut bilişim bilgi işlem hizmetlerinin (sunucu, depolama, veritabanı, ağ, yazılım, analiz, makine zekası ve daha fazlası) İnternet (“bulut”) üzerinden sağlanarak daha hızlı inovasyon, esnek kaynaklar ve ekonomik ölçeklendirme sunulması anlamına gelir. Normalde yalnızca kullandığınız bulut hizmetleri için ödeme yaptığınızdan işletim maliyetlerinizi düşürebilir, altyapınızı daha verimli bir şekilde çalıştırabilir ve değişen iş gereksinimlerinize uygun şekilde ölçeklendirme yapabilirsiniz.
 [Bulut Bilişim Nedir?][bulut-bilisim]
 
