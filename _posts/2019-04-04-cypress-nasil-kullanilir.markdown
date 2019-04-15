@@ -2,6 +2,7 @@
 layout: post
 title:  "Cypress Nedir, Nasıl Kullanılır?"
 categories: [ Node.js, Cypress ]
+author: fatih
 image: assets/images/cypress-io-logo-social-share.png
 ---
 Cypress, modern web uygulamaları için tasarlanmış açık kaynak bir front-end test aracıdır.

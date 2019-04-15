@@ -2,6 +2,7 @@
 layout: post
 title:  "Cypress Nasıl Kullanılır? - 2"
 categories: [ Node.js, Cypress ]
+author: fatih
 image: assets/images/cypress-io-logo-social-share.png
 ---
 
