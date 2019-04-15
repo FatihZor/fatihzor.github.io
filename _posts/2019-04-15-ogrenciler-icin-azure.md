@@ -14,5 +14,12 @@ Microsoft Azure, kuruluşunuzun iş zorluklarını aşmasına yardımcı olacak 
 Basitçe açıklamak gerekirse, bulut bilişim bilgi işlem hizmetlerinin (sunucu, depolama, veritabanı, ağ, yazılım, analiz, makine zekası ve daha fazlası) İnternet (“bulut”) üzerinden sağlanarak daha hızlı inovasyon, esnek kaynaklar ve ekonomik ölçeklendirme sunulması anlamına gelir. Normalde yalnızca kullandığınız bulut hizmetleri için ödeme yaptığınızdan işletim maliyetlerinizi düşürebilir, altyapınızı daha verimli bir şekilde çalıştırabilir ve değişen iş gereksinimlerinize uygun şekilde ölçeklendirme yapabilirsiniz.
 [Bulut Bilişim Nedir?][bulut-bilisim]
 
+Öğrenciler için Azure, içerisinde bir çok özelliği ücretsiz olarak barındıran bir tekliftir.
+
+![öğrenciler için azure]({{ site.baseurl }}/assets/images/azure4students/x1.png)
+
+[Ücretsiz sağlanan hizmetlerin tam listesini görmek için tıklayın.][azure-ogrenci]
+
 [azure-nedir]: https://azure.microsoft.com/tr-tr/overview/what-is-azure/
 [bulut-bilisim]: https://azure.microsoft.com/tr-tr/overview/what-is-cloud-computing/
+[azure-ogrenci]: https://azure.microsoft.com/tr-tr/free/students/#free-products-section
