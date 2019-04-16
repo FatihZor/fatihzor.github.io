@@ -20,4 +20,4 @@ Bu yazımda PyCharm ile Microsoft Azure üzerinde Python uygulamalarının SSH �
 [onceki-1]: https://fatihzor.github.io/ogrenciler-icin-azure/
 [onceki-2]: https://fatihzor.github.io/azure-sanal-makine-olusturma/
 [pycharm-ogrenci]: https://www.jetbrains.com/student/
-[virtual-env]{:target="_blank"}: https://yazilimportal.com/python-virtual-environment-8d50f5bae0d7
+[virtual-env]: https://yazilimportal.com/python-virtual-environment-8d50f5bae0d7
