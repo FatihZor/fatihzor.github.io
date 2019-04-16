@@ -15,9 +15,8 @@ Bu yazımda PyCharm ile Microsoft Azure üzerinde Python uygulamalarının SSH �
 
 ## Sanal Makinede Python Environment Oluşturma
 
-[Python Virtual Environment nedir?][virtual-env]
+[Python Virtual Environment nedir?](https://yazilimportal.com/python-virtual-environment-8d50f5bae0d7){:target="_blank"}
 
 [onceki-1]: https://fatihzor.github.io/ogrenciler-icin-azure/
 [onceki-2]: https://fatihzor.github.io/azure-sanal-makine-olusturma/
 [pycharm-ogrenci]: https://www.jetbrains.com/student/
-[virtual-env]: https://yazilimportal.com/python-virtual-environment-8d50f5bae0d7
