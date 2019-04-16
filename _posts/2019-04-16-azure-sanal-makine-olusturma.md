@@ -12,7 +12,7 @@ Bir önceki yazımda öğrenciler için Azure hesabının nasıl oluşturulduğu
 * ![öğrenciler için azure sanal makine]({{ site.baseurl }}/assets/images/azurevm/1.png)
 * ![öğrenciler için azure sanal makine]({{ site.baseurl }}/assets/images/azurevm/2.png)
 
-Genel olarak Python Flask ile web uygulamaları geliştirdiğim için sanal makinenin 80 numaralı portunu ve SSH ile bağlanabilmek için 22 numaralı portunu gelen bağlantılara açık hale getireceğim.
+Genel olarak Python Flask ile web uygulamaları geliştirdiğim için sanal makinenin 80 numaralı portunu ve SSH ile bağlanabilmek için 22 numaralı portunu gelen bağlantılara açık hale getiriyorum.
 
 * ![öğrenciler için azure sanal makine]({{ site.baseurl }}/assets/images/azurevm/3.png)
 * ![öğrenciler için azure sanal makine]({{ site.baseurl }}/assets/images/azurevm/4.png)
