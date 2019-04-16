@@ -73,3 +73,11 @@ Yukarıdaki adımlar yapıldıktan sonra PyCharm sunucu bilgilerini doğrulayaca
 
 ## İlk Uygulama
 
+PowerShell üzerinde aktif olan SSH bağlantımızı sonlandırıp kapatalım. PyCharm içerisinde ``` Tools > Start SSH session... ``` menüsüne giderek sunucumuza tekrar bağlanalım. SSH bağlantımız burada açık kalsın ihtiyaç olduğu durumda kullanırız.
+
+![pycharm ve azure]({{ site.baseurl }}/assets/images/pycharmazure/11.png)
+
+Şimdi projemizde yeni bir dosya oluşturarak ismini ```test.py``` yapalım. Dosyamızın içine ```print(1+1)``` yazarak kaydedelim. Sonra dosyamıza sağ tıklayarak ```Run 'test'``` veya <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>F10</kbd> yapalım.
+
+![pycharm ve azure]({{ site.baseurl }}/assets/images/pycharmazure/12.png)
+![pycharm ve azure]({{ site.baseurl }}/assets/images/pycharmazure/13.png)
