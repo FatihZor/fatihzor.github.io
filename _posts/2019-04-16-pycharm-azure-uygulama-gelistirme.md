@@ -7,7 +7,7 @@ image: assets/images/python.jpg
 tags: [python]
 ---
 
-Bu yazımda PyCharm ile Microsoft Azure üzerinde Python uygulamalarının nasıl geliştirileceğine değinmek istiyorum. Eğer öğrenci iseniz ve Microsoft Azure hesabınız yoksa, bu yazıya başlamadan önce aşağıdaki iki yazıyı okumanız faydalı olacaktır. Ek olarak öğrenciler için PyCharm uygulamasını indirirek PyCharm uygulamasının ```Professional``` sürümüne sahip olabilirsiniz.
+Bu yazımda PyCharm ile Microsoft Azure üzerinde Python uygulamalarının SSH üzerinden nasıl geliştirileceğine değinmek istiyorum. Eğer öğrenci iseniz ve Microsoft Azure hesabınız yoksa, bu yazıya başlamadan önce aşağıdaki iki yazıyı okumanız faydalı olacaktır. Ek olarak öğrenciler için PyCharm uygulamasını indirirek PyCharm uygulamasının ```Professional``` sürümüne sahip olabilirsiniz.
 
 * [Öğrenciler İçin Azure][onceki-1]
 * [Azure Sanal Makine Oluşturma][onceki-2]
