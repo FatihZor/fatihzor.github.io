@@ -46,8 +46,6 @@ app.config['SECRET_KEY'] = 'secret!'
 sio = SocketIO(app)
 CORS(app)
 
-#kodlar buraya gelecek
-
 if __name__ == '__main__':
     sio.run(app, host="0.0.0.0", port=8080)
 {% endhighlight %}
