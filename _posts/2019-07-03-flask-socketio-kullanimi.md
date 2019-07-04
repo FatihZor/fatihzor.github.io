@@ -58,3 +58,20 @@ if __name__ == '__main__':
 def index():
     return render_template('index.html')
 {% endhighlight %}
+
+HTML dosyamıza socketio ve jquery javascirpt kütüphanelerimizi ekleyelim.
+{% highlight html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+</head>
+<body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+</body>
+</html>
+{% endhighlight %}
