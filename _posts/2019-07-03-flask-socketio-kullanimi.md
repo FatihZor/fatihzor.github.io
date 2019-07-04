@@ -27,10 +27,10 @@ pip3 install flask-socketio
 
 Aşağıdaki gibi bir klasör düzeni oluşturalım.
 
--soket
-|-static
-|-templates
-|-app.py
+- soket
+- - templates
+- - static
+- - app.py
 
 ```app.py``` dosyamıza ilk olarak kütüphaneleri ekleyelim.
 {% highlight python %}
