@@ -46,6 +46,15 @@ app.config['SECRET_KEY'] = 'secret!'
 sio = SocketIO(app)
 CORS(app)
 
+#flask ve soket kodları buraya gelecek
+
 if __name__ == '__main__':
     sio.run(app, host="0.0.0.0", port=8080)
+{% endhighlight %}
+
+Şimdi ```templates``` klasörünün içerisine ```index.html``` dosyası oluşturalım. Bu html dosyasına erişebilmek için gereken flask yönlendirmesini ```app.py``` dosyasına ekleyelim. 
+{% highlight python %}
+@app.route('/')
+def index():
+    return render_template('index.html')
 {% endhighlight %}
