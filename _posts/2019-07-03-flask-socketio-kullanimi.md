@@ -127,4 +127,13 @@ if __name__ == '__main__':
 </html>
 {% endhighlight %}
 
-Bu yazımı yazarken hem soket programlama öğrenip hem de sizlere anlatmaya çalıştım. Hatalı olduğum kısımları twitter üzerinden bildirmeyi unutmayın.
+### Neden Flask-CORS Kullandık?
+CORS (Cross-Origin Resource Sharing) teriminin Türkçe karşılığı Kökler Arası Kaynak Paylaşımı demek. CORS hatası ile daha önce karşılaştığım için ekledim. Javascript ile uygulamama istek atarken karşılaştığım bir hatayı çözmek için bu kütüphaneyi kullanmıştım. CORS hakkında detaylı bilgiye Gökhan Şengün'ün [bu yazısından](https://medium.com/@gokhansengun/cors-nedir-ve-ne-i%C5%9Fe-yarar-27006d85bf54) ulaşabilirsiniz.
+
+### Neden emit() Kullandık?
+SocketIO da belirli bir fonksiyona veri göndermek istiyorsak ```emit()``` kullanılır. ```emit()``` fonksiyonun ilk parametresi veriyi göndermek istediğimiz fonksiyonun ismi olmalıdır.
+
+### Neden broadcast Kullandık?
+```broadcast``` sokete bağlı olan tüm kullanıcıları/istemcileri bilgilendirmek için kullanılır. ```broadcast``` seçeneği aktif ise gönderende dahil olmak üzere herkes mesajı alır. 
+
+Bu yazımı yazarken hem soket programlama öğrenip hem de sizlere anlatmaya çalıştım. Hatalı olduğum kısımları twitter üzerinden bildirmeyi unutmayın. 
