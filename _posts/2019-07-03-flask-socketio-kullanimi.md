@@ -75,3 +75,55 @@ HTML dosyamıza socketio ve jquery javascirpt kütüphanelerimizi ekleyelim.
 </body>
 </html>
 {% endhighlight %}
+
+İlk denememiz sokete biri bağlandığında diğer kullanıcıları uyarmak olacak.
+
+```app.py``` dosyası
+{% highlight python %}
+from flask import Flask, render_template
+from flask_socketio import SocketIO, send, emit
+from flask_cors import CORS
+
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'secret!'
+sio = SocketIO(app)
+CORS(app)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@sio.on('connect')
+def connect_message():
+    emit('new_user', {'data': 'yeni kullanici baglandi'}, broadcast=True)
+
+if __name__ == '__main__':
+    sio.run(app, host="0.0.0.0", port=8080)
+{% highlight python %}
+```index.html``` dosyası
+{% highlight html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+</head>
+<body>
+
+<div id="soket"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf-8">
+    var socket = io();
+    socket.on('connect', function() {
+    });
+    socket.on('new_user', function(gelen_veri) {
+        $('#soket').append("<p>" + gelen_veri['data'] + "</p>")
+    });
+</script>
+</body>
+</html>
+{% highlight html %}
+
+Bu yazımı yazarken hem soket programlama öğrenip hem de sizlere anlatmaya çalıştım. Hatalı olduğum kısımları twitter üzerinden bildirmeyi unutmayın.
