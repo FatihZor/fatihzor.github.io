@@ -100,6 +100,7 @@ def connect_message():
 if __name__ == '__main__':
     sio.run(app, host="0.0.0.0", port=8080)
 {% highlight python %}
+
 ```index.html``` dosyası
 {% highlight html %}
 <!DOCTYPE html>
