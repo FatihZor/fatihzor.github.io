@@ -99,7 +99,7 @@ def connect_message():
 
 if __name__ == '__main__':
     sio.run(app, host="0.0.0.0", port=8080)
-{% highlight python %}
+{% endhighlight %}
 
 ```index.html``` dosyası
 {% highlight html %}
@@ -125,6 +125,6 @@ if __name__ == '__main__':
 </script>
 </body>
 </html>
-{% highlight html %}
+{% endhighlight %}
 
 Bu yazımı yazarken hem soket programlama öğrenip hem de sizlere anlatmaya çalıştım. Hatalı olduğum kısımları twitter üzerinden bildirmeyi unutmayın.
